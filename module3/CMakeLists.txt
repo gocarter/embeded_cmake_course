@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.2.0)
 project(calculator_Project VERSION 1.0.0)
 
-add_subdirectory(my_math_dir)
-add_subdirectory(my_print_dir)
+add_subdirectory(my_math)
+add_subdirectory(my_print)
 
 add_executable(calculator 
 	main.cpp)

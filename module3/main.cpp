@@ -1,7 +1,7 @@
 #include <iostream>
-#include "addition.hpp"
-#include "division.hpp"
-#include "print_result.hpp"
+#include "my_math/addition.hpp"
+#include "my_math/division.hpp"
+#include "my_print/print_result.hpp"
 
 int main(){
 	float first_no, second_no, result_add, result_div;
